@@ -1,0 +1,161 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Mdbc</S>
+      <S N="Version">6.5.6</S>
+      <S N="Type">Module</S>
+      <S N="Description">Mdbc module - MongoDB Cmdlets for PowerShell</S>
+      <S N="Author">Roman Kuzmin</S>
+      <S N="CompanyName">nightroman</S>
+      <S N="Copyright">Copyright (c) Roman Kuzmin</S>
+      <DT N="PublishedDate">2020-05-26T15:44:32-03:00</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">http://www.apache.org/licenses/LICENSE-2.0</URI>
+      <URI N="ProjectUri">https://github.com/nightroman/Mdbc</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Mongo</S>
+          <S>MongoDB</S>
+          <S>Database</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MdbcCollection</S>
+                <S>Add-MdbcData</S>
+                <S>Connect-Mdbc</S>
+                <S>Export-MdbcData</S>
+                <S>Get-MdbcCollection</S>
+                <S>Get-MdbcDatabase</S>
+                <S>Get-MdbcData</S>
+                <S>Import-MdbcData</S>
+                <S>Invoke-MdbcAggregate</S>
+                <S>Invoke-MdbcCommand</S>
+                <S>New-MdbcData</S>
+                <S>Register-MdbcClassMap</S>
+                <S>Remove-MdbcCollection</S>
+                <S>Remove-MdbcDatabase</S>
+                <S>Remove-MdbcData</S>
+                <S>Rename-MdbcCollection</S>
+                <S>Set-MdbcData</S>
+                <S>Update-MdbcData</S>
+                <S>Use-MdbcTransaction</S>
+                <S>Watch-MdbcChange</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MdbcCollection</S>
+                <S>Add-MdbcData</S>
+                <S>Connect-Mdbc</S>
+                <S>Export-MdbcData</S>
+                <S>Get-MdbcCollection</S>
+                <S>Get-MdbcDatabase</S>
+                <S>Get-MdbcData</S>
+                <S>Import-MdbcData</S>
+                <S>Invoke-MdbcAggregate</S>
+                <S>Invoke-MdbcCommand</S>
+                <S>New-MdbcData</S>
+                <S>Register-MdbcClassMap</S>
+                <S>Remove-MdbcCollection</S>
+                <S>Remove-MdbcDatabase</S>
+                <S>Remove-MdbcData</S>
+                <S>Rename-MdbcCollection</S>
+                <S>Set-MdbcData</S>
+                <S>Update-MdbcData</S>
+                <S>Use-MdbcTransaction</S>
+                <S>Watch-MdbcChange</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/nightroman/Mdbc/blob/master/Release-Notes.md</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="3">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Copyright (c) Roman Kuzmin</S>
+          <S N="description">Mdbc module - MongoDB Cmdlets for PowerShell</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">https://github.com/nightroman/Mdbc/blob/master/Release-Notes.md</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3001</S>
+          <S N="downloadCount">44431</S>
+          <S N="packageSize">2583315</S>
+          <S N="published">26/05/2020 15:44:32 -03:00</S>
+          <S N="created">26/05/2020 15:44:32 -03:00</S>
+          <S N="lastUpdated">26/08/2020 05:27:02 -03:00</S>
+          <S N="tags">Mongo MongoDB Database PSModule PSCmdlet_Add-MdbcCollection PSCommand_Add-MdbcCollection PSCmdlet_Add-MdbcData PSCommand_Add-MdbcData PSCmdlet_Connect-Mdbc PSCommand_Connect-Mdbc PSCmdlet_Export-MdbcData PSCommand_Export-MdbcData PSCmdlet_Get-MdbcCollection PSCommand_Get-MdbcCollection PSCmdlet_Get-MdbcDatabase PSCommand_Get-MdbcDatabase PSCmdlet_Get-MdbcData PSCommand_Get-MdbcData PSCmdlet_Import-MdbcData PSCommand_Import-MdbcData PSCmdlet_Invoke-MdbcAggregate PSCommand_Invoke-MdbcAggregate PSCmdlet_Invoke-MdbcCommand PSCommand_Invoke-MdbcCommand PSCmdlet_New-MdbcData PSCommand_New-MdbcData PSCmdlet_Register-MdbcClassMap PSCommand_Register-MdbcClassMap PSCmdlet_Remove-MdbcCollection PSCommand_Remove-MdbcCollection PSCmdlet_Remove-MdbcDatabase PSCommand_Remove-MdbcDatabase PSCmdlet_Remove-MdbcData PSCommand_Remove-MdbcData PSCmdlet_Rename-MdbcCollection PSCommand_Rename-MdbcCollection PSCmdlet_Set-MdbcData PSCommand_Set-MdbcData PSCmdlet_Update-MdbcData PSCommand_Update-MdbcData PSCmdlet_Use-MdbcTransaction PSCommand_Use-MdbcTransaction PSCmdlet_Watch-MdbcChange PSCommand_Watch-MdbcChange PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-08-26T05:27:02Z</S>
+          <S N="NormalizedVersion">6.5.6</S>
+          <S N="Authors">Roman Kuzmin</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Mdbc.nuspec|DnsClient.dll|LICENSE.txt|Mdbc.deps.json|Mdbc.dll|Mdbc.pdb|Mdbc.psd1|MongoDB.Bson.dll|MongoDB.Driver.Core.dll|MongoDB.Driver.dll|MongoDB.Libmongocrypt.dll|README.htm|SharpCompress.dll|System.Buffers.dll|System.Collections.Concurrent.dll|System.Collections.NonGeneric.dll|System.Collections.Specialized.dll|System.ComponentModel.dll|System.ComponentModel.Primitives.dll|System.ComponentModel.TypeConverter.dll|System.Diagnostics.TextWriterTraceListener.dll|System.Dynamic.Runtime.dll|System.IO.FileSystem.Primitives.dll|System.Linq.dll|System.Linq.Expressions.dll|System.Linq.Queryable.dll|System.Management.Automation.dll|System.ObjectModel.dll|System.Reflection.Emit.dll|System.Reflection.Emit.ILGeneration.dll|System.Reflection.Emit.Lightweight.dll|System.Reflection.TypeExtensions.dll|System.Runtime.CompilerServices.Unsafe.dll|System.Runtime.Numerics.dll|System.Runtime.Serialization.Formatters.dll|System.Runtime.Serialization.Primitives.dll|System.Security.Claims.dll|System.Security.Cryptography.OpenSsl.dll|System.Security.Cryptography.Primitives.dll|System.Security.Principal.dll|System.Text.Encoding.CodePages.dll|System.Threading.dll|System.Threading.Thread.dll|System.Threading.ThreadPool.dll|en-US\about_Mdbc.help.txt|en-US\Mdbc.dll-Help.xml|Scripts\Mdbc.ArgumentCompleters.ps1|Scripts\Update-MongoFiles.ps1</S>
+          <S N="GUID">12c81cd8-bde3-4c91-a292-e6c4f868106a</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="CompanyName">https://github.com/nightroman</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">D:\C\Documentos\Dev\Artigos_2020\ExemploGroffe\AzFun_DotNet_CoreGF\PowerShell\Module\Mdbc\6.5.6</S>
+    </MS>
+  </Obj>
+</Objs>
